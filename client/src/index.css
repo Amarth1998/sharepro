@@ -1,0 +1,160 @@
+/* Style the container div */
+.HOMEDIV {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .HOMEDIV span:first-child {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .HOMEDIV a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .HOMEDIV a:hover {
+    background-color: #0056b3;
+  }
+  
+
+.homediv1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+align-content: center;
+height:85vh;
+border: 1px solid black;
+
+    
+}
+
+
+
+
+
+
+/* Style for the usernav class */
+.usernav {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-bottom: 2px solid #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: end;
+  }
+  
+ 
+  .usernav a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+
+  .usernav a:hover {
+    color: #0056b3;
+  }
+  
+
+  .userdiv1 h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .usernav a + br {
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  /* ************************* */
+.userregiter {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .userregiter h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .userregiter input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+
+  .userregiter button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  .userregiter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .userregiter p {
+    font-size: 1rem;
+    color: green;
+    margin-top: 15px;
+  }
+  
+ 
+  .userregiter p.error {
+    color: red;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  /* * */
+
+
+  
